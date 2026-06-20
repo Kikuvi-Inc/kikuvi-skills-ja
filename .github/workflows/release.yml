@@ -23,6 +23,7 @@ jobs:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           token: ${{ steps.app-token.outputs.token }}
+          persist-credentials: false
 
       - name: Install apm
         run: |
@@ -30,7 +31,10 @@ jobs:
           echo "$HOME/.apm/bin" >> "$GITHUB_PATH"
 
       - name: Stage dev tree onto main
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
+          gh auth setup-git
           git fetch origin main
           git checkout -B __publish origin/main
           git read-tree -u --reset "$GITHUB_SHA"
