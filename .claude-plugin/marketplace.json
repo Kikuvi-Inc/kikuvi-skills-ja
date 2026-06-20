@@ -1,0 +1,14 @@
+{
+  "name": "kikuvi",
+  "owner": {
+    "name": "Kikuvi-Inc",
+    "url": "https://github.com/Kikuvi-Inc"
+  },
+  "plugins": [
+    {
+      "name": "kikuvi-skills-ja",
+      "description": "Kikuviにおけるヒアリング設計・管理・分析のワークフローガイド",
+      "source": "./"
+    }
+  ]
+}

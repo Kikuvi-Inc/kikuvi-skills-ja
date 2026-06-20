@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kikuvi": {
+      "type": "http",
+      "url": "https://api.kikuvi.com/mcp"
+    }
+  }
+}

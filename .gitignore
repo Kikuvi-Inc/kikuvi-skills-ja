@@ -1,1 +1,8 @@
 apm_modules/
+apm.lock.yaml
+
+# Build plugin manifests
+build/
+dist/
+.mcp.json
+.claude-plugin/

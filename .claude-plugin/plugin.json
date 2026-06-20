@@ -1,0 +1,15 @@
+{
+  "name": "kikuvi-skills-ja",
+  "version": "0.1.0",
+  "description": "Kikuvi interview platform \u2014 MCP server and AI skill in Japanese",
+  "author": {
+    "name": "Kikuvi-Inc"
+  },
+  "license": "UNLICENSED",
+  "mcpServers": {
+    "kikuvi": {
+      "type": "http",
+      "url": "https://api.kikuvi.com/mcp"
+    }
+  }
+}
