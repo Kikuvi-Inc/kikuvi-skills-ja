@@ -3,6 +3,18 @@ version: 0.1.0
 description: Kikuvi interview platform — MCP server and AI skill in Japanese
 author: Kikuvi-Inc
 includes: auto
+license: UNLICENSED
+target: claude
+
+marketplace:
+  name: kikuvi
+  owner:
+    name: Kikuvi-Inc
+    url: https://github.com/Kikuvi-Inc
+  packages:
+    - name: kikuvi-skills-ja
+      description: Kikuviにおけるヒアリング設計・管理・分析のワークフローガイド
+      source: ./
 
 dependencies:
   mcp:
