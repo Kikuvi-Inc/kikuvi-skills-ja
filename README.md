@@ -5,7 +5,7 @@
 ## インストール
 
 ### Claude Code
-```
+```text
 /plugin marketplace add Kikuvi-Inc/kikuvi-skills-ja
 /plugin install kikuvi-skills-ja@kikuvi
 ```
