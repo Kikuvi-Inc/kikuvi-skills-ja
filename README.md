@@ -1,12 +1,18 @@
 # kikuvi-skills-ja
 
-[Kikuvi](https://kikuvi.com) の APM パッケージです。1コマンドで MCP サーバーと Skills をセットアップできます。
+[Kikuvi](https://kikuvi.com) の APM パッケージです。KikuviのSkillsとMCPサーバーをまとめて導入できます。
 
 ## インストール
 
-```bash
-apm install Kikuvi-Inc/kikuvi-skills-ja
+### Claude Code
 ```
+/plugin marketplace add Kikuvi-Inc/kikuvi-skills-ja
+/plugin install kikuvi-skills-ja@kikuvi
+```
+
+### Claude app
+Customize → Personal Plugins → Create plugins -> Add marketplace -> Add from a repository をクリックし、`Kikuvi-Inc/kikuvi-skills-ja` を追加し、
+`kikuvi-skills-ja` を sync します。
 
 初回接続時にブラウザが開き、Kikuvi アカウントへの OAuth サインインが完了します。
 
@@ -18,20 +24,4 @@ apm install Kikuvi-Inc/kikuvi-skills-ja
 | スキル | `kikuvi-skills-ja` | ヒアリング設計・管理・分析のワークフローガイド |
 
 ## 必要要件
-
 - [Kikuvi](https://kikuvi.com) アカウント
-- APM がインストールされていること
-
-### APM のインストール
-
-**macOS / Linux**
-```bash
-curl -sSL https://aka.ms/apm-unix | sh
-```
-
-**Windows**
-```powershell
-irm https://aka.ms/apm-windows | iex
-```
-
-詳細は [APM ドキュメント](https://microsoft.github.io/apm/) を参照してください。
