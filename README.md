@@ -16,6 +16,12 @@ Customize → Personal Plugins → Create plugins -> Add marketplace -> Add from
 
 初回接続時にブラウザが開き、Kikuvi アカウントへの OAuth サインインが完了します。
 
+### Codex
+```text
+codex plugin marketplace add Kikuvi-Inc/kikuvi-skills-ja
+codex plugin add kikuvi-skills-ja@kikuvi
+```
+
 ## 含まれるもの
 
 | 種類 | 名前 | 説明 |
