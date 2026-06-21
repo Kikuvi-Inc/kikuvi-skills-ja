@@ -1,0 +1,7 @@
+{
+  "name": "kikuvi-skills-ja",
+  "version": "0.1.0",
+  "description": "Kikuviにおけるヒアリング設計・管理・分析のワークフローガイド",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
